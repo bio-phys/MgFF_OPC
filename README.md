@@ -21,20 +21,21 @@ Our optimized parameters aim to precisely capture the role of Magnesium in all-a
 
 Our parameters are optimized for the SPC/E, TIP3P-fb, TIP4P/2005, TIP4P-Ew, or TIP4P-D water models. The parameters are optimized for use with the Smith-Dang parametes for Cl (SPC/E) or the Cloride parameters optimized alongside the Mg2+ parameters and `parmBSC0chiOL3` RNA force fields (e.g. `amber14sb.ff`). All parameter sets here are to be used with the Lorentz-Berthelot combination rule (otherwise modifications are required). Note that we have chosen unique names for the optimized parameters to avoid errors in overwriting atom names:
 
-    `mMg` - MG with water exchange as in experiment
-    `nMg` - MG with accellerated water exchange
+* `mMg` - MG with water exchange as in experiment
+* `nMg` - MG with accellerated water exchange
 
 To get started: Replace the standard ion names in your .gro file by our unique names. Modify the given topology file according to your system. The topology file includes the optimized force field parameters via
 
-    `ff_Mg_opc.itp` and `Mg_opc.itp`,
+* `ff_Mg_opc.itp` and `Mg_opc.itp`,
 
 # Examples
 
 Examples can be used similar as for TIP3P water. To test the parameters for the selected water model (here spce as an example, works the same for the other parameters):
 
-    download the example files from: [Link](https://github.com/bio-phys/Magnesium-FFs)
-    add the new force field parameters (`ff_Mg_opc.itp` and `Mg_opc.itp`) to `ions.ff`
-    change the names of the ions force field parameter file `.itp` in the topolology file `.top` from `ff_Mg.itp` to `ff_Mg_opc.itp` and from `Mg.itp` to `Mg_opc.itp` follow the description for TIP3P.
+* download the example files from: [Link](https://github.com/bio-phys/Magnesium-FFs)
+* add the new force field parameters (`ff_Mg_opc.itp` and `Mg_opc.itp`) to `ions.ff`
+* change the names of the ions force field parameter file `.itp` in the topolology file `.top` from `ff_Mg.itp` to `ff_Mg_opc.itp` and from `Mg.itp` to `Mg_opc.itp` 
+* follow the description for TIP3P.
 
 Citation
 
