@@ -1,6 +1,10 @@
 # MgFF_OPC
 Magnesium Force Fields for OPC Water with Accurate Solvation, Ion-Binding, and Water-Exchange Properties: Successful Transfer from SPC/E
 
+[Link](https://github.com/bio-phys/Magnesium-FFs) to parameters in TIP3P.
+[Link](https://github.com/bio-phys/optimizedMgFFs) to parameters in SPC/E, TIP3P-fb, TIP4P/2005, TIP4P-Ew, and TIP4P-D.
+
+
 Introduction
 
 We have previously developed two sets for 6 different water models. Here we report the parameters for SPC/E water, that are transferable to OPC. The parameters shown here are exactly the same as the ones for SPC/E. 
@@ -27,7 +31,7 @@ Examples
 
 Examples can be used similar as for TIP3P water. To test the parameters for the selected water model (here spce as an example, works the same for the other parameters):
 
-    download the example files from: Link
+    download the example files from: [Link](https://github.com/bio-phys/Magnesium-FFs)
     add the new force field parameters (ff_Mg_opc.itp and Mg_opc.itp) to ions.ff
     change the names of the ions force field parameter file .itp in the topolology file .top from ff_Mg.itp to ff_Mg_opc.itp and from Mg.itp to Mg_opc.itp
     follow the description for TIP3P.
