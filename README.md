@@ -39,6 +39,6 @@ Examples can be used similar as for TIP3P water. To test the parameters for the 
 
 Citation
 
-If you use our optimized parameters for Magnesium please refer to: K. K. Grotz, N. Schwierz (t.b.a.)
+If you use our optimized parameters for Magnesium please refer to: K. K. Grotz, N. Schwierz, bioRxiv, https://doi.org/10.1101/2021.12.07.471562
 
 Implementation has been tested by Kara K. Grotz. USE AT YOUR OWN RISK!!
